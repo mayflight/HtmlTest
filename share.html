@@ -7,12 +7,13 @@
 <p>share to qq</p>
 </body>
 <script type="text/javascript">
-	window.onload=function(){
-		if (typeof shareToQQ == 'function') {
-			alert("test")
-			shareToQQ({"imageUrl":"http://chuantu.biz/t5/98/1496394018x2728329083.png","qqId":"1103194207"});
-		return ;
-	}
+	
+if (typeof shareToQQ === 'function') {
+	alert("test")
+	shareToQQ({"imageUrl":"http://chuantu.biz/t5/98/1496394018x2728329083.png","qqId":"1103194207"});
+}else {
+	alert("error")
 }
+
 </script>
 </html>
