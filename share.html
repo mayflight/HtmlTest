@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>share QQ</title>
+	<title>Apple pay</title>
 </head>
 <body>
 <p>Apple Pay</p>
-<div onClick="click()">click</div>
+<div onClick="tap()">----click-----</div>
 </body>
 <script type="text/javascript">
-
 	
-function click {
+function tap (){
 	alert("dddd")
     if (typeof applePay === 'function') {
-	alert("test")
-	applePay();
-  }else {
-	alert("error")
-  }
+		alert("test")
+		applePay();
+  	}else {
+		alert("error")
+  	}
 }
 </script>
 </html>
